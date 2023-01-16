@@ -4,6 +4,6 @@ decimal places. Sample output is shown below:"""
 import math
 for x in range(0,346,15):
     i=math.radians(x)
-    angle=round(math.sin(i),4)
-    print("sin(",x,")=",angle)
-    
+    angle_sin=round(math.sin(i),4)
+    angle_cos=round(math.cos(i),4)
+    print("sin(",x,")=",angle_sin,"and cos(",x,")=",angle_cos)
